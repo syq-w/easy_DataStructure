@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/CODE/CPP/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\bin\\X86_64~2.EXE  @CMakeFiles/arrayQueue.dir/includes_CXX.rsp -g -o CMakeFiles\\arrayQueue.dir\\main.cpp.obj -c D:\\CODE\\CPP\\main.cpp",
+  "file": "D:/CODE/CPP/main.cpp"
+}
+]

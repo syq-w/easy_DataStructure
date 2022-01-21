@@ -92,6 +92,9 @@ arrayQueue_EXTERNAL_OBJECTS =
 
 arrayQueue.exe: CMakeFiles/arrayQueue.dir/main.cpp.obj
 arrayQueue.exe: CMakeFiles/arrayQueue.dir/build.make
+arrayQueue.exe: Lineartable/libLineartable.a
+arrayQueue.exe: Matrix/libMatrix.a
+arrayQueue.exe: aa/libaa.a
 arrayQueue.exe: CMakeFiles/arrayQueue.dir/linklibs.rsp
 arrayQueue.exe: CMakeFiles/arrayQueue.dir/objects1.rsp
 arrayQueue.exe: CMakeFiles/arrayQueue.dir/link.txt

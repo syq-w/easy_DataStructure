@@ -1,0 +1,174 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Lineartable",
+					"jsonFile" : "directory-Lineartable-Debug-fe8409de50cff87905e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Lineartable",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Matrix",
+					"jsonFile" : "directory-Matrix-Debug-b36d5918c082b258ba0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Matrix",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "aa",
+					"jsonFile" : "directory-aa-Debug-d324b60e25c847d31298.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "aa",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arrayQueue",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Lineartable",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Matrix",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "aa",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Lineartable::@e006a8089c0221d74d27",
+					"jsonFile" : "target-Lineartable-Debug-00c1c77035bc26ea6f54.json",
+					"name" : "Lineartable",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Matrix::@8f54aebd265510262963",
+					"jsonFile" : "target-Matrix-Debug-085a3447e160e962a95a.json",
+					"name" : "Matrix",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "aa::@3d3f583ee3cf8547afab",
+					"jsonFile" : "target-aa-Debug-583bb1cde6da5dd71a09.json",
+					"name" : "aa",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrayQueue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrayQueue-Debug-a76af76477ad81bbdafa.json",
+					"name" : "arrayQueue",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/CODE/CPP/build",
+		"source" : "D:/CODE/CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

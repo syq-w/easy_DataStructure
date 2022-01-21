@@ -1,11 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "arrayQueue.exe"
-		},
-		{
-			"path" : "arrayQueue.pdb"
+			"path" : "aa/libaa.a"
 		}
 	],
 	"backtrace" : 1,
@@ -13,12 +11,12 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"include_directories"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"aa/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -52,7 +50,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/CODE/CPP/arrayQueue"
+					"path" : "D:/CODE/CPP/aa"
 				}
 			],
 			"language" : "CXX",
@@ -62,32 +60,13 @@
 			]
 		}
 	],
-	"id" : "arrayQueue::@6890427a1f51a3e7e1df",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "arrayQueue",
-	"nameOnDisk" : "arrayQueue.exe",
+	"id" : "aa::@3d3f583ee3cf8547afab",
+	"name" : "aa",
+	"nameOnDisk" : "libaa.a",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "aa",
+		"source" : "aa"
 	},
 	"sourceGroups" : 
 	[
@@ -104,9 +83,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "aa/a.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

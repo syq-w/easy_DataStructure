@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\bin\ar.exe qc libaa.a CMakeFiles/aa.dir/a.cpp.obj
+C:\PROGRA~1\MINGW-~1\bin\ranlib.exe libaa.a

@@ -3,5 +3,25 @@
   "directory": "D:/CODE/CPP/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\bin\\X86_64~2.EXE  @CMakeFiles/arrayQueue.dir/includes_CXX.rsp -g -o CMakeFiles\\arrayQueue.dir\\main.cpp.obj -c D:\\CODE\\CPP\\main.cpp",
   "file": "D:/CODE/CPP/main.cpp"
+},
+{
+  "directory": "D:/CODE/CPP/build/Lineartable",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\bin\\X86_64~2.EXE  @CMakeFiles/Lineartable.dir/includes_CXX.rsp -g -o CMakeFiles\\Lineartable.dir\\arrayList.cpp.obj -c D:\\CODE\\CPP\\Lineartable\\arrayList.cpp",
+  "file": "D:/CODE/CPP/Lineartable/arrayList.cpp"
+},
+{
+  "directory": "D:/CODE/CPP/build/Lineartable",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\bin\\X86_64~2.EXE  @CMakeFiles/Lineartable.dir/includes_CXX.rsp -g -o CMakeFiles\\Lineartable.dir\\chain.cpp.obj -c D:\\CODE\\CPP\\Lineartable\\chain.cpp",
+  "file": "D:/CODE/CPP/Lineartable/chain.cpp"
+},
+{
+  "directory": "D:/CODE/CPP/build/Matrix",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\bin\\X86_64~2.EXE  @CMakeFiles/Matrix.dir/includes_CXX.rsp -g -o CMakeFiles\\Matrix.dir\\matrix.cpp.obj -c D:\\CODE\\CPP\\Matrix\\matrix.cpp",
+  "file": "D:/CODE/CPP/Matrix/matrix.cpp"
+},
+{
+  "directory": "D:/CODE/CPP/build/aa",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\bin\\X86_64~2.EXE  @CMakeFiles/aa.dir/includes_CXX.rsp -g -o CMakeFiles\\aa.dir\\a.cpp.obj -c D:\\CODE\\CPP\\aa\\a.cpp",
+  "file": "D:/CODE/CPP/aa/a.cpp"
 }
 ]

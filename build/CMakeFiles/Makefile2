@@ -63,29 +63,84 @@ CMAKE_BINARY_DIR = D:\CODE\CPP\build
 
 # The main recursive "all" target.
 all: CMakeFiles/arrayQueue.dir/all
+all: Lineartable/all
+all: Matrix/all
+all: aa/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: Lineartable/preinstall
+preinstall: Matrix/preinstall
+preinstall: aa/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/arrayQueue.dir/clean
+clean: Lineartable/clean
+clean: Matrix/clean
+clean: aa/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Lineartable
+
+# Recursive "all" directory target.
+Lineartable/all: Lineartable/CMakeFiles/Lineartable.dir/all
+.PHONY : Lineartable/all
+
+# Recursive "preinstall" directory target.
+Lineartable/preinstall:
+.PHONY : Lineartable/preinstall
+
+# Recursive "clean" directory target.
+Lineartable/clean: Lineartable/CMakeFiles/Lineartable.dir/clean
+.PHONY : Lineartable/clean
+
+#=============================================================================
+# Directory level rules for directory Matrix
+
+# Recursive "all" directory target.
+Matrix/all: Matrix/CMakeFiles/Matrix.dir/all
+.PHONY : Matrix/all
+
+# Recursive "preinstall" directory target.
+Matrix/preinstall:
+.PHONY : Matrix/preinstall
+
+# Recursive "clean" directory target.
+Matrix/clean: Matrix/CMakeFiles/Matrix.dir/clean
+.PHONY : Matrix/clean
+
+#=============================================================================
+# Directory level rules for directory aa
+
+# Recursive "all" directory target.
+aa/all: aa/CMakeFiles/aa.dir/all
+.PHONY : aa/all
+
+# Recursive "preinstall" directory target.
+aa/preinstall:
+.PHONY : aa/preinstall
+
+# Recursive "clean" directory target.
+aa/clean: aa/CMakeFiles/aa.dir/clean
+.PHONY : aa/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/arrayQueue.dir
 
 # All Build rule for target.
-CMakeFiles/arrayQueue.dir/all:
+CMakeFiles/arrayQueue.dir/all: Lineartable/CMakeFiles/Lineartable.dir/all
+CMakeFiles/arrayQueue.dir/all: Matrix/CMakeFiles/Matrix.dir/all
+CMakeFiles/arrayQueue.dir/all: aa/CMakeFiles/aa.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayQueue.dir\build.make CMakeFiles/arrayQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayQueue.dir\build.make CMakeFiles/arrayQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\CPP\build\CMakeFiles --progress-num=1,2 "Built target arrayQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\CPP\build\CMakeFiles --progress-num=8,9 "Built target arrayQueue"
 .PHONY : CMakeFiles/arrayQueue.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arrayQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arrayQueue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 0
 .PHONY : CMakeFiles/arrayQueue.dir/rule
@@ -98,6 +153,84 @@ arrayQueue: CMakeFiles/arrayQueue.dir/rule
 CMakeFiles/arrayQueue.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayQueue.dir\build.make CMakeFiles/arrayQueue.dir/clean
 .PHONY : CMakeFiles/arrayQueue.dir/clean
+
+#=============================================================================
+# Target rules for target Lineartable/CMakeFiles/Lineartable.dir
+
+# All Build rule for target.
+Lineartable/CMakeFiles/Lineartable.dir/all:
+	$(MAKE) $(MAKESILENT) -f Lineartable\CMakeFiles\Lineartable.dir\build.make Lineartable/CMakeFiles/Lineartable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Lineartable\CMakeFiles\Lineartable.dir\build.make Lineartable/CMakeFiles/Lineartable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\CPP\build\CMakeFiles --progress-num=1,2,3 "Built target Lineartable"
+.PHONY : Lineartable/CMakeFiles/Lineartable.dir/all
+
+# Build rule for subdir invocation for target.
+Lineartable/CMakeFiles/Lineartable.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lineartable/CMakeFiles/Lineartable.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 0
+.PHONY : Lineartable/CMakeFiles/Lineartable.dir/rule
+
+# Convenience name for target.
+Lineartable: Lineartable/CMakeFiles/Lineartable.dir/rule
+.PHONY : Lineartable
+
+# clean rule for target.
+Lineartable/CMakeFiles/Lineartable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Lineartable\CMakeFiles\Lineartable.dir\build.make Lineartable/CMakeFiles/Lineartable.dir/clean
+.PHONY : Lineartable/CMakeFiles/Lineartable.dir/clean
+
+#=============================================================================
+# Target rules for target Matrix/CMakeFiles/Matrix.dir
+
+# All Build rule for target.
+Matrix/CMakeFiles/Matrix.dir/all:
+	$(MAKE) $(MAKESILENT) -f Matrix\CMakeFiles\Matrix.dir\build.make Matrix/CMakeFiles/Matrix.dir/depend
+	$(MAKE) $(MAKESILENT) -f Matrix\CMakeFiles\Matrix.dir\build.make Matrix/CMakeFiles/Matrix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\CPP\build\CMakeFiles --progress-num=4,5 "Built target Matrix"
+.PHONY : Matrix/CMakeFiles/Matrix.dir/all
+
+# Build rule for subdir invocation for target.
+Matrix/CMakeFiles/Matrix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Matrix/CMakeFiles/Matrix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 0
+.PHONY : Matrix/CMakeFiles/Matrix.dir/rule
+
+# Convenience name for target.
+Matrix: Matrix/CMakeFiles/Matrix.dir/rule
+.PHONY : Matrix
+
+# clean rule for target.
+Matrix/CMakeFiles/Matrix.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Matrix\CMakeFiles\Matrix.dir\build.make Matrix/CMakeFiles/Matrix.dir/clean
+.PHONY : Matrix/CMakeFiles/Matrix.dir/clean
+
+#=============================================================================
+# Target rules for target aa/CMakeFiles/aa.dir
+
+# All Build rule for target.
+aa/CMakeFiles/aa.dir/all:
+	$(MAKE) $(MAKESILENT) -f aa\CMakeFiles\aa.dir\build.make aa/CMakeFiles/aa.dir/depend
+	$(MAKE) $(MAKESILENT) -f aa\CMakeFiles\aa.dir\build.make aa/CMakeFiles/aa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\CPP\build\CMakeFiles --progress-num=6,7 "Built target aa"
+.PHONY : aa/CMakeFiles/aa.dir/all
+
+# Build rule for subdir invocation for target.
+aa/CMakeFiles/aa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aa/CMakeFiles/aa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 0
+.PHONY : aa/CMakeFiles/aa.dir/rule
+
+# Convenience name for target.
+aa: aa/CMakeFiles/aa.dir/rule
+.PHONY : aa
+
+# clean rule for target.
+aa/CMakeFiles/aa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f aa\CMakeFiles\aa.dir\build.make aa/CMakeFiles/aa.dir/clean
+.PHONY : aa/CMakeFiles/aa.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -120,7 +120,18 @@ CMakeFiles/arrayQueue.dir/main.cpp.obj: D:\CODE\CPP\main.cpp \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
  D:\CODE\CPP\arrayQueue/myqueue.h D:\CODE\CPP\arrayQueue/myExceptions.h \
  D:\CODE\CPP\Lineartable/arrayList.h \
- D:\CODE\CPP\Lineartable/mylinerList.h D:\CODE\CPP\Lineartable/chain.h \
- D:\CODE\CPP\Matrix/matrix.h D:\CODE\CPP\Stack/arrayStack.h \
- D:\CODE\CPP\Stack/stack.h D:\CODE\CPP\Stack/myExceptions.h \
- D:\CODE\CPP\aa/a.h
+ D:\CODE\CPP\Lineartable/mylinerList.h \
+ D:\CODE\CPP\Lineartable/myExceptions.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+ D:\CODE\CPP\Lineartable/chain.h D:\CODE\CPP\Matrix/matrix.h \
+ D:\CODE\CPP\Matrix/myExceptions.h D:\CODE\CPP\Stack/arrayStack.h \
+ D:\CODE\CPP\Stack/stack.h D:\CODE\CPP\Stack/myExceptions.h

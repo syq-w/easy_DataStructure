@@ -1,12 +1,3 @@
 D:/CODE/CPP/build/CMakeFiles/arrayQueue.dir
 D:/CODE/CPP/build/CMakeFiles/edit_cache.dir
 D:/CODE/CPP/build/CMakeFiles/rebuild_cache.dir
-D:/CODE/CPP/build/Lineartable/CMakeFiles/Lineartable.dir
-D:/CODE/CPP/build/Lineartable/CMakeFiles/edit_cache.dir
-D:/CODE/CPP/build/Lineartable/CMakeFiles/rebuild_cache.dir
-D:/CODE/CPP/build/Matrix/CMakeFiles/Matrix.dir
-D:/CODE/CPP/build/Matrix/CMakeFiles/edit_cache.dir
-D:/CODE/CPP/build/Matrix/CMakeFiles/rebuild_cache.dir
-D:/CODE/CPP/build/aa/CMakeFiles/aa.dir
-D:/CODE/CPP/build/aa/CMakeFiles/edit_cache.dir
-D:/CODE/CPP/build/aa/CMakeFiles/rebuild_cache.dir

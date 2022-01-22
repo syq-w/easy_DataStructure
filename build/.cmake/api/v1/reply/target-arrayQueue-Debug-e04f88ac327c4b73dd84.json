@@ -14,7 +14,6 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries",
 			"include_directories"
 		],
 		"files" : 
@@ -29,31 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 20,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 22,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 14,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -70,24 +51,20 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 2,
 					"path" : "D:/CODE/CPP/arrayQueue"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 2,
 					"path" : "D:/CODE/CPP/Lineartable"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 2,
 					"path" : "D:/CODE/CPP/Matrix"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 2,
 					"path" : "D:/CODE/CPP/Stack"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "D:/CODE/CPP/aa"
 				}
 			],
 			"language" : "CXX",
@@ -95,21 +72,6 @@
 			[
 				0
 			]
-		}
-	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "Lineartable::@e006a8089c0221d74d27"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "Matrix::@8f54aebd265510262963"
-		},
-		{
-			"backtrace" : 4,
-			"id" : "aa::@3d3f583ee3cf8547afab"
 		}
 	],
 	"id" : "arrayQueue::@6890427a1f51a3e7e1df",
@@ -124,21 +86,6 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "Lineartable\\libLineartable.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "Matrix\\libMatrix.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "aa\\libaa.a",
-				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",

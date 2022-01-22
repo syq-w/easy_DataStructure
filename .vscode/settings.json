@@ -6,6 +6,8 @@
         "tuple": "cpp",
         "utility": "cpp",
         "iosfwd": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "sstream": "cpp",
+        "algorithm": "cpp"
     }
 }

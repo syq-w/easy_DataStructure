@@ -5,7 +5,6 @@
 #include "Lineartable/chain.h"
 #include "Matrix/matrix.h"
 #include "Stack/arrayStack.h"
-#include "aa/a.h"
 
 int main()
 {
@@ -22,13 +21,13 @@ int main()
     a.pop();
     //a.pop();
 
-    //arrayList<int> b(10);
+    arrayList<int> b(10);
     //b.insert(0,10);
     //b.insert(0,19);
 
-    //chain<int> c;
+    chain<int> c;
 
-    //matrix<int> d(1,2);
+    matrix<int> d(1,2);
 
     arrayStack<int> e;
     e.push(1);
@@ -36,8 +35,5 @@ int main()
     e.push(3);
 
     std::cout << e.top() << std::endl;
-
-    aa a1(10);
-    a1.print1(15);
 
 }

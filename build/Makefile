@@ -128,45 +128,6 @@ arrayQueue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayQueue.dir\build.make CMakeFiles/arrayQueue.dir/build
 .PHONY : arrayQueue/fast
 
-#=============================================================================
-# Target rules for targets named Lineartable
-
-# Build rule for target.
-Lineartable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lineartable
-.PHONY : Lineartable
-
-# fast build rule for target.
-Lineartable/fast:
-	$(MAKE) $(MAKESILENT) -f Lineartable\CMakeFiles\Lineartable.dir\build.make Lineartable/CMakeFiles/Lineartable.dir/build
-.PHONY : Lineartable/fast
-
-#=============================================================================
-# Target rules for targets named Matrix
-
-# Build rule for target.
-Matrix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Matrix
-.PHONY : Matrix
-
-# fast build rule for target.
-Matrix/fast:
-	$(MAKE) $(MAKESILENT) -f Matrix\CMakeFiles\Matrix.dir\build.make Matrix/CMakeFiles/Matrix.dir/build
-.PHONY : Matrix/fast
-
-#=============================================================================
-# Target rules for targets named aa
-
-# Build rule for target.
-aa: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aa
-.PHONY : aa
-
-# fast build rule for target.
-aa/fast:
-	$(MAKE) $(MAKESILENT) -f aa\CMakeFiles\aa.dir\build.make aa/CMakeFiles/aa.dir/build
-.PHONY : aa/fast
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -199,9 +160,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lineartable
-	@echo ... Matrix
-	@echo ... aa
 	@echo ... arrayQueue
 	@echo ... main.obj
 	@echo ... main.i

@@ -29,9 +29,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake"
   "../CMakeLists.txt"
-  "../Lineartable/CMakeLists.txt"
-  "../Matrix/CMakeLists.txt"
-  "../aa/CMakeLists.txt"
   "CMakeFiles/3.21.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.21.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.3/CMakeRCCompiler.cmake"
@@ -47,15 +44,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Lineartable/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Matrix/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "aa/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/arrayQueue.dir/DependInfo.cmake"
-  "Lineartable/CMakeFiles/Lineartable.dir/DependInfo.cmake"
-  "Matrix/CMakeFiles/Matrix.dir/DependInfo.cmake"
-  "aa/CMakeFiles/aa.dir/DependInfo.cmake"
   )

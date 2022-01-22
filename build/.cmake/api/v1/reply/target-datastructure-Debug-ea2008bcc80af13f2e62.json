@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "arrayQueue.exe"
+			"path" : "datastructure.exe"
 		},
 		{
-			"path" : "arrayQueue.pdb"
+			"path" : "datastructure.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -74,7 +74,7 @@
 			]
 		}
 	],
-	"id" : "arrayQueue::@6890427a1f51a3e7e1df",
+	"id" : "datastructure::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "arrayQueue",
-	"nameOnDisk" : "arrayQueue.exe",
+	"name" : "datastructure",
+	"nameOnDisk" : "datastructure.exe",
 	"paths" : 
 	{
 		"build" : ".",

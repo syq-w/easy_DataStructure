@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "arrayQueue"
+			"value" : "datastructure"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1391,6 +1391,42 @@
 		},
 		{
 			"name" : "arrayQueue_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/CODE/CPP"
+		},
+		{
+			"name" : "datastructure_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/CODE/CPP/build"
+		},
+		{
+			"name" : "datastructure_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "datastructure_SOURCE_DIR",
 			"properties" : 
 			[
 				{

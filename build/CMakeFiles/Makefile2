@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = D:\CODE\CPP\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/arrayQueue.dir/all
+all: CMakeFiles/datastructure.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/arrayQueue.dir/clean
+clean: CMakeFiles/datastructure.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/arrayQueue.dir
+# Target rules for target CMakeFiles/datastructure.dir
 
 # All Build rule for target.
-CMakeFiles/arrayQueue.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayQueue.dir\build.make CMakeFiles/arrayQueue.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayQueue.dir\build.make CMakeFiles/arrayQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\CPP\build\CMakeFiles --progress-num=1,2 "Built target arrayQueue"
-.PHONY : CMakeFiles/arrayQueue.dir/all
+CMakeFiles/datastructure.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructure.dir\build.make CMakeFiles/datastructure.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructure.dir\build.make CMakeFiles/datastructure.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\CPP\build\CMakeFiles --progress-num=1,2 "Built target datastructure"
+.PHONY : CMakeFiles/datastructure.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/arrayQueue.dir/rule: cmake_check_build_system
+CMakeFiles/datastructure.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arrayQueue.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/datastructure.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\CPP\build\CMakeFiles 0
-.PHONY : CMakeFiles/arrayQueue.dir/rule
+.PHONY : CMakeFiles/datastructure.dir/rule
 
 # Convenience name for target.
-arrayQueue: CMakeFiles/arrayQueue.dir/rule
-.PHONY : arrayQueue
+datastructure: CMakeFiles/datastructure.dir/rule
+.PHONY : datastructure
 
 # clean rule for target.
-CMakeFiles/arrayQueue.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayQueue.dir\build.make CMakeFiles/arrayQueue.dir/clean
-.PHONY : CMakeFiles/arrayQueue.dir/clean
+CMakeFiles/datastructure.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\datastructure.dir\build.make CMakeFiles/datastructure.dir/clean
+.PHONY : CMakeFiles/datastructure.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

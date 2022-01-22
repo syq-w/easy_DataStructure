@@ -141,8 +141,7 @@ CMakeFiles/arrayQueue.dir/main.cpp.obj: ../main.cpp \
   ../Matrix/myExceptions.h \
   ../Stack/arrayStack.h \
   ../Stack/stack.h \
-  ../Stack/myExceptions.h \
-  ../aa/a.h
+  ../Stack/myExceptions.h
 
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
@@ -426,5 +425,3 @@ C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
 ../Matrix/matrix.h:
 
 ../Stack/myExceptions.h:
-
-../aa/a.h:

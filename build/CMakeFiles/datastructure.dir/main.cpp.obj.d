@@ -115,11 +115,11 @@ CMakeFiles/datastructure.dir/main.cpp.obj: D:\CODE\CPP\main.cpp \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- D:\CODE\CPP\arrayQueue/arrayQueue.h \
+ D:\CODE\CPP\Queue/arrayQueue.h \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
- D:\CODE\CPP\arrayQueue/myqueue.h D:\CODE\CPP\arrayQueue/myExceptions.h \
- D:\CODE\CPP\Lineartable/arrayList.h \
+ D:\CODE\CPP\Queue/myqueue.h D:\CODE\CPP\Queue/myExceptions.h \
+ D:\CODE\CPP\Queue/linkedQueue.h D:\CODE\CPP\Lineartable/arrayList.h \
  D:\CODE\CPP\Lineartable/mylinerList.h \
  D:\CODE\CPP\Lineartable/myExceptions.h \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
@@ -134,4 +134,5 @@ CMakeFiles/datastructure.dir/main.cpp.obj: D:\CODE\CPP\main.cpp \
  C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
  D:\CODE\CPP\Lineartable/chain.h D:\CODE\CPP\Matrix/matrix.h \
  D:\CODE\CPP\Matrix/myExceptions.h D:\CODE\CPP\Stack/arrayStack.h \
- D:\CODE\CPP\Stack/stack.h D:\CODE\CPP\Stack/myExceptions.h
+ D:\CODE\CPP\Stack/stack.h D:\CODE\CPP\Stack/myExceptions.h \
+ D:\CODE\CPP\Stack/linkedStack.h

@@ -1,12 +1,15 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(datastructure)
 
-set(ARRAYQUEUEFOLDER ${PROJECT_SOURCE_DIR}/arrayQueue)
+set(QUEUEFOLDER ${PROJECT_SOURCE_DIR}/Queue)
 set(LINEARTABLE ${PROJECT_SOURCE_DIR}/Lineartable)
 set(MATRIX ${PROJECT_SOURCE_DIR}/Matrix)
 set(STACK ${PROJECT_SOURCE_DIR}/Stack)
 
-include_directories(${ARRAYQUEUEFOLDER} ${LINEARTABLE} ${MATRIX} ${STACK})
+set(RELY ${PROJECT_SOURCE_DIR}/Rely)
+
+include_directories(${QUEUEFOLDER} ${LINEARTABLE} ${MATRIX}
+ ${STACK} ${RELY})
 
 add_executable(${PROJECT_NAME} main.cpp)
 

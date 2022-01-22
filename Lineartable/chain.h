@@ -10,6 +10,7 @@
 
 using std::ostringstream;
 
+/*
 template<class T>
 struct chainNode
 {
@@ -29,6 +30,7 @@ struct chainNode
         this->next = next;
     }
 };
+*/
 
 //缺少了迭代器的使用
 //仅仅是单向链表的实现

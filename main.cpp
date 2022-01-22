@@ -1,10 +1,12 @@
 #include <iostream>
 
-#include "arrayQueue/arrayQueue.h"
+#include "Queue/arrayQueue.h"
+#include "Queue/linkedQueue.h"
 #include "Lineartable/arrayList.h"
 #include "Lineartable/chain.h"
 #include "Matrix/matrix.h"
 #include "Stack/arrayStack.h"
+#include "Stack/linkedStack.h"
 
 int main()
 {
@@ -35,5 +37,9 @@ int main()
     e.push(3);
 
     std::cout << e.top() << std::endl;
+
+    linkedStack<int> f;
+
+    linkedQueue<int> g;
 
 }

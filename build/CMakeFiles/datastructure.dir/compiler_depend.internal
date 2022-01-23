@@ -145,4 +145,9 @@ CMakeFiles/datastructure.dir/main.cpp.obj
  D:/CODE/CPP/Stack/stack.h
  D:/CODE/CPP/Stack/myExceptions.h
  D:/CODE/CPP/Stack/linkedStack.h
+ D:/CODE/CPP/Dictionary/skipList.h
+ D:/CODE/CPP/Dictionary/dictionary.h
+ D:/CODE/CPP/Dictionary/myExceptions.h
+ C:/Program Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath
+ C:/Program Files/mingw-w64/x86_64-w64-mingw32/include/math.h
 

@@ -143,7 +143,12 @@ CMakeFiles/datastructure.dir/main.cpp.obj: ../main.cpp \
   ../Stack/arrayStack.h \
   ../Stack/stack.h \
   ../Stack/myExceptions.h \
-  ../Stack/linkedStack.h
+  ../Stack/linkedStack.h \
+  ../Dictionary/skipList.h \
+  ../Dictionary/dictionary.h \
+  ../Dictionary/myExceptions.h \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+  C:/Program\ Files/mingw-w64/x86_64-w64-mingw32/include/math.h
 
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
@@ -298,6 +303,8 @@ C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/ato
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
 
+../Dictionary/dictionary.h:
+
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
@@ -431,3 +438,11 @@ C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
 ../Stack/myExceptions.h:
 
 ../Stack/linkedStack.h:
+
+../Dictionary/skipList.h:
+
+../Dictionary/myExceptions.h:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
+
+C:/Program\ Files/mingw-w64/x86_64-w64-mingw32/include/math.h:

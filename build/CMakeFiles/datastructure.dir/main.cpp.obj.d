@@ -135,4 +135,8 @@ CMakeFiles/datastructure.dir/main.cpp.obj: D:\CODE\CPP\main.cpp \
  D:\CODE\CPP\Lineartable/chain.h D:\CODE\CPP\Matrix/matrix.h \
  D:\CODE\CPP\Matrix/myExceptions.h D:\CODE\CPP\Stack/arrayStack.h \
  D:\CODE\CPP\Stack/stack.h D:\CODE\CPP\Stack/myExceptions.h \
- D:\CODE\CPP\Stack/linkedStack.h
+ D:\CODE\CPP\Stack/linkedStack.h D:\CODE\CPP\Dictionary/skipList.h \
+ D:\CODE\CPP\Dictionary/dictionary.h \
+ D:\CODE\CPP\Dictionary/myExceptions.h \
+ C:/PROGRA~1/MINGW-~1/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+ C:/PROGRA~1/MINGW-~1/x86_64-w64-mingw32/include/math.h

@@ -7,6 +7,7 @@
 #include "Matrix/matrix.h"
 #include "Stack/arrayStack.h"
 #include "Stack/linkedStack.h"
+#include "Dictionary/skipList.h"
 
 int main()
 {
@@ -41,5 +42,7 @@ int main()
     linkedStack<int> f;
 
     linkedQueue<int> g;
+
+    skipList<int, int> h(100);
 
 }

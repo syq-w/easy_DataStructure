@@ -8,6 +8,7 @@
 #include "Stack/arrayStack.h"
 #include "Stack/linkedStack.h"
 #include "Dictionary/skipList.h"
+#include "Dictionary/hashTable.h"
 
 int main()
 {
@@ -44,5 +45,13 @@ int main()
     linkedQueue<int> g;
 
     skipList<int, int> h(100);
+
+    hashTable<int, int> i(11);
+    pair<int, int> p;
+    p.first = 2; p.second = 10;
+    i.insert(p);
+    p.first = 3; p.second = 20;
+    i.insert(p);
+    std::cout << i.find(2)->second << std::endl;
 
 }

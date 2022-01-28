@@ -150,7 +150,8 @@ CMakeFiles/datastructure.dir/main.cpp.obj: ../main.cpp \
   C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   C:/Program\ Files/mingw-w64/x86_64-w64-mingw32/include/math.h \
   ../Dictionary/hashTable.h \
-  ../Dictionary/hash.h
+  ../Dictionary/hash.h \
+  ../Dictionary/hashChains.h
 
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
@@ -452,3 +453,5 @@ C:/Program\ Files/mingw-w64/x86_64-w64-mingw32/include/math.h:
 ../Dictionary/hashTable.h:
 
 ../Dictionary/hash.h:
+
+../Dictionary/hashChains.h:

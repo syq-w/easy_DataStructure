@@ -9,6 +9,7 @@
 #include "Stack/linkedStack.h"
 #include "Dictionary/skipList.h"
 #include "Dictionary/hashTable.h"
+#include "Dictionary/hashChains.h"
 
 int main()
 {
@@ -53,5 +54,7 @@ int main()
     p.first = 3; p.second = 20;
     i.insert(p);
     std::cout << i.find(2)->second << std::endl;
+
+    hashChains<int, int> j(11);
 
 }

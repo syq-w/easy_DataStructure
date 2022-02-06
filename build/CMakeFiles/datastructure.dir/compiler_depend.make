@@ -151,7 +151,18 @@ CMakeFiles/datastructure.dir/main.cpp.obj: ../main.cpp \
   C:/Program\ Files/mingw-w64/x86_64-w64-mingw32/include/math.h \
   ../Dictionary/hashTable.h \
   ../Dictionary/hash.h \
-  ../Dictionary/hashChains.h
+  ../Dictionary/hashChains.h \
+  ../Tree/linkedBinaryTree.h \
+  ../Tree/binaryTree.h \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
+  C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../Tree/binaryTreeNode.h \
+  ../Tree/myExceptions.h
 
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
@@ -455,3 +466,25 @@ C:/Program\ Files/mingw-w64/x86_64-w64-mingw32/include/math.h:
 ../Dictionary/hash.h:
 
 ../Dictionary/hashChains.h:
+
+../Tree/linkedBinaryTree.h:
+
+../Tree/binaryTree.h:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h:
+
+C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h:
+
+../Tree/binaryTreeNode.h:
+
+../Tree/myExceptions.h:

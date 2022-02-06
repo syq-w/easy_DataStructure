@@ -6,11 +6,12 @@ set(LINEARTABLE ${PROJECT_SOURCE_DIR}/Lineartable)
 set(MATRIX ${PROJECT_SOURCE_DIR}/Matrix)
 set(STACK ${PROJECT_SOURCE_DIR}/Stack)
 set(DICTIONARY ${PROJECT_SOURCE_DIR}/Dictionary)
+set(TREE ${PROJECT_SOURCE_DIR}/Tree)
 
 set(RELY ${PROJECT_SOURCE_DIR}/Rely)
 
 include_directories(${QUEUEFOLDER} ${LINEARTABLE} ${MATRIX}
- ${STACK} ${DICTIONARY} ${RELY})
+ ${STACK} ${DICTIONARY} ${TREE} ${RELY})
 
 add_executable(${PROJECT_NAME} main.cpp)
 

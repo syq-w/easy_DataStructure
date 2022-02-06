@@ -10,6 +10,7 @@
 #include "Dictionary/skipList.h"
 #include "Dictionary/hashTable.h"
 #include "Dictionary/hashChains.h"
+#include "Tree/linkedBinaryTree.h"
 
 int main()
 {
@@ -56,5 +57,7 @@ int main()
     std::cout << i.find(2)->second << std::endl;
 
     hashChains<int, int> j(11);
+
+    linkedBinaryTree<int> k;
 
 }

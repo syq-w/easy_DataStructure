@@ -3,6 +3,7 @@
 #ifndef myExceptions_
 #define myExceptions_
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -122,17 +123,4 @@ class undefinedMethod
    private:
       string message;
 };
-
-// Tree is empty
-class emptyTree
-{
-   public:
-      emptyTree(string theMessage = 
-                   "This Tree is empty")
-            {message = theMessage;}
-      void outputMessage() {cout << message << endl;}
-   private:
-      string message;
-};
-
 #endif

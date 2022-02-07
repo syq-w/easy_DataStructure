@@ -11,6 +11,7 @@
 #include "Dictionary/hashTable.h"
 #include "Dictionary/hashChains.h"
 #include "Tree/linkedBinaryTree.h"
+#include "Tree/maxHeap.h"
 
 int main()
 {
@@ -58,6 +59,10 @@ int main()
 
     hashChains<int, int> j(11);
 
-    linkedBinaryTree<int> k;
+    //linkedBinaryTree<int> k;
+
+    maxHeap<int> l(4);
+    l.push(10);
+    l.push(5);
 
 }

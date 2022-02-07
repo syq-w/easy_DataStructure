@@ -162,7 +162,9 @@ CMakeFiles/datastructure.dir/main.cpp.obj: ../main.cpp \
   C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
   C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
   ../Tree/binaryTreeNode.h \
-  ../Tree/myExceptions.h
+  ../Tree/myExceptions.h \
+  ../Tree/maxHeap.h \
+  ../Tree/maxPriorityQueue.h
 
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
@@ -488,3 +490,7 @@ C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/st
 ../Tree/binaryTreeNode.h:
 
 ../Tree/myExceptions.h:
+
+../Tree/maxHeap.h:
+
+../Tree/maxPriorityQueue.h:

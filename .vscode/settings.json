@@ -42,5 +42,21 @@
         "typeinfo": "cpp",
         "hash_map": "cpp",
         "functional": "cpp"
-    }
+    },
+    "C_Cpp.clang_format_sortIncludes": true, // 格式化时调整include的顺序（按字母排序）
+    "clang.cflags": [ // 控制c语言静态检测的参数
+        "--target=x86_64-w64-mingw",
+        "-I",
+        //"./include/**",
+        "-std=c11",
+        "-Wall"
+    ],
+    "clang.cxxflags": [ // 控制c++静态检测时的参数
+        "--target=x86_64-w64-mingw", // clang另一个插件无法更改这个，所以头文件找不到报错
+        "-I",
+        //"./include/**",  // 自己写头文件的时候这里要改，包含进去，不然静态检测会检测不到头文件
+        "-std=c++17",
+        "-Wall"
+    ],
+    "clang.completion.enable": true
 }

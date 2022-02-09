@@ -3,17 +3,29 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Queue/**"
             ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/Queue/**"
+                
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
             "compilerPath": "C:\\Program Files\\mingw-w64\\bin\\gcc.exe",
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],

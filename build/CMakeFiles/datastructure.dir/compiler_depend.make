@@ -164,7 +164,9 @@ CMakeFiles/datastructure.dir/main.cpp.obj: ../main.cpp \
   ../Tree/binaryTreeNode.h \
   ../Tree/myExceptions.h \
   ../Tree/maxHeap.h \
-  ../Tree/maxPriorityQueue.h
+  ../Tree/maxPriorityQueue.h \
+  ../Tree/completeWinnerTree.h \
+  ../Tree/winnerTree.h
 
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:
@@ -435,6 +437,8 @@ C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
 
+../Tree/completeWinnerTree.h:
+
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
 
 C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h:
@@ -494,3 +498,5 @@ C:/Program\ Files/mingw-w64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/st
 ../Tree/maxHeap.h:
 
 ../Tree/maxPriorityQueue.h:
+
+../Tree/winnerTree.h:

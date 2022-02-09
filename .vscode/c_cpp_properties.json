@@ -5,13 +5,15 @@
             "includePath": [
                 "${workspaceFolder}",
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/Queue/**"
+                "${workspaceFolder}/Queue/**",
+                "${workspaceFolder}/Dictionary/**"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}",
                     "${workspaceFolder}/**",
-                    "${workspaceFolder}/Queue/**"
+                    "${workspaceFolder}/Queue/**",
+                    "${workspaceFolder}/Dictionary/**"
                 
                 ],
                 "limitSymbolsToIncludedHeaders": true,

@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\datastructure.dir/objects.a
-C:\PROGRA~1\MINGW-~1\bin\ar.exe qc CMakeFiles\datastructure.dir/objects.a @CMakeFiles\datastructure.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\bin\X86_64~2.EXE -g -Wl,--whole-archive CMakeFiles\datastructure.dir/objects.a -Wl,--no-whole-archive -o datastructure.exe -Wl,--out-implib,libdatastructure.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\datastructure.dir\linklibs.rsp

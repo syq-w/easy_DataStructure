@@ -1,3 +1,0 @@
-D:/CODE/database/build/CMakeFiles/datastructure.dir
-D:/CODE/database/build/CMakeFiles/edit_cache.dir
-D:/CODE/database/build/CMakeFiles/rebuild_cache.dir

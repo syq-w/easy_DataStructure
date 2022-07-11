@@ -10,8 +10,8 @@ set(TREE ${PROJECT_SOURCE_DIR}/Tree)
 
 set(RELY ${PROJECT_SOURCE_DIR}/Rely)
 
-include_directories(${QUEUEFOLDER} ${LINEARTABLE} ${MATRIX}
- ${STACK} ${DICTIONARY} ${TREE} ${RELY})
+include_directories(${RELY} ${QUEUEFOLDER} ${LINEARTABLE} ${MATRIX}
+ ${STACK} ${DICTIONARY} ${TREE})
 
 add_executable(${PROJECT_NAME} main.cpp)
 

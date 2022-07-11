@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/CODE/CPP/build"
+			"value" : "d:/CODE/database/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CODE/CPP"
+			"value" : "D:/CODE/database"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/arrayQueue"
+			"value" : "C:/Program Files (x86)/datastructure"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1258,150 +1258,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Lineartable_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/build/Lineartable"
-		},
-		{
-			"name" : "Lineartable_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "Lineartable_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/Lineartable"
-		},
-		{
-			"name" : "Matrix_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/build/Matrix"
-		},
-		{
-			"name" : "Matrix_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "Matrix_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/Matrix"
-		},
-		{
-			"name" : "aa_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/build/aa"
-		},
-		{
-			"name" : "aa_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "aa_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/aa"
-		},
-		{
-			"name" : "arrayQueue_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/build"
-		},
-		{
-			"name" : "arrayQueue_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "arrayQueue_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/CODE/CPP"
-		},
-		{
 			"name" : "datastructure_BINARY_DIR",
 			"properties" : 
 			[
@@ -1411,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/CODE/CPP/build"
+			"value" : "D:/CODE/database/build"
 		},
 		{
 			"name" : "datastructure_IS_TOP_LEVEL",
@@ -1435,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/CODE/CPP"
+			"value" : "D:/CODE/database"
 		}
 	],
 	"kind" : "cache",

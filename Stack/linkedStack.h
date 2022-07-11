@@ -7,6 +7,7 @@
 #include "stack.h"
 #include "myExceptions.h"
 #include <sstream>
+#include "../Rely/chainNode.h"
 
 using std::ostringstream;
 
@@ -29,8 +30,8 @@ struct chainNode
         this->element = element;
         this->next = next;
     }
-};
-*/
+};*/
+
 
 template<class T>
 class linkedStack : public stack<T>

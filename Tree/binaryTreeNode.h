@@ -11,11 +11,11 @@ struct binaryTreeNode
     binaryTreeNode<T> *leftChild, *rightChild;
 
     //构造函数
-    binaryTreeNode() {leftChild = rightChild = NULL; }
+    binaryTreeNode() {leftChild = rightChild = nullptr; }
     binaryTreeNode(const T& theElement)
         :element(theElement)
     {
-        leftChild = rightChild = NULL;
+        leftChild = rightChild = nullptr;
     }
     binaryTreeNode(const T& theElement, binaryTreeNode *theLeftChild, binaryTreeNode *theRightChild)
         :element(theElement)

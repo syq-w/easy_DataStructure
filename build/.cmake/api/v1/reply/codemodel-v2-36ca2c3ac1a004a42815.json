@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "datastructure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-datastructure-Debug-43a07b788cdd3270e282.json",
+					"jsonFile" : "target-datastructure-Debug-891f29cd93b3f2005945.json",
 					"name" : "datastructure",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/CODE/CPP/build",
-		"source" : "D:/CODE/CPP"
+		"build" : "D:/CODE/database/build",
+		"source" : "D:/CODE/database"
 	},
 	"version" : 
 	{

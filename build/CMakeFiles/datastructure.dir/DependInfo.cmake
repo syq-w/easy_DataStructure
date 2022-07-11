@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/CODE/CPP/main.cpp" "CMakeFiles/datastructure.dir/main.cpp.obj" "gcc" "CMakeFiles/datastructure.dir/main.cpp.obj.d"
+  "D:/CODE/database/main.cpp" "CMakeFiles/datastructure.dir/main.cpp.obj" "gcc" "CMakeFiles/datastructure.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

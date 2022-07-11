@@ -4,6 +4,7 @@
 
 #include "mylinerList.h"
 #include "myExceptions.h"
+#include "../Rely/chainNode.h"
 
 #include <sstream>
 #include <string>
@@ -29,8 +30,8 @@ struct chainNode
         this->element = element;
         this->next = next;
     }
-};
-*/
+};*/
+
 
 //缺少了迭代器的使用
 //仅仅是单向链表的实现

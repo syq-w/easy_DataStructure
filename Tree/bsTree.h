@@ -3,7 +3,7 @@
 #ifndef BSTREE
 #define BSTREE
 
-#include "Dictionary/dictionary.h"
+#include "../Dictionary/dictionary.h"
 
 template<class K, class E>
 class bsTree : public dictionary<K, E>

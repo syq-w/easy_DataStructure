@@ -1,8 +1,8 @@
-# Install script for directory: D:/CODE/CPP
+# Install script for directory: D:/CODE/database
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/arrayQueue")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/datastructure")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CODE/CPP/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CODE/database/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -3,6 +3,7 @@
 #ifndef myExceptions_
 #define myExceptions_
 #include <string>
+#include <iostream>
 
 using namespace std;
 

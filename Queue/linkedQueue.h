@@ -7,8 +7,9 @@
 
 #include "myqueue.h"
 #include "myExceptions.h"
+#include "../Rely/chainNode.h"
 
-
+/*
 template<class T>
 struct chainNode
 {
@@ -27,7 +28,7 @@ struct chainNode
         this->element = element;
         this->next = next;
     }
-};
+};*/
 
 
 template<class T>
